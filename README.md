@@ -1,6 +1,10 @@
-## About
+# Docker PHP/Java Bridge
 
 Docker container with installed PHP/Java Bridge (http://php-java-bridge.sourceforge.net/pjb/).
+
+## About
+
+#### Installed Software
 
 PHP/Java Bridge Version `7.2.0`  
 PHP Version `PHP 7.0.27-0+deb9u1`  
@@ -11,7 +15,7 @@ Apache Server  `Apache/2.4.25`
 
     git clone https://github.com/clausnz/docker-php_java_bridge.git
     cd docker-php_java_bridge
-    docker build -t <tagName> .
+    docker build -t <tag_name> .
 
 ## Run Container
 
@@ -44,7 +48,7 @@ Open url at
 `http://localhost:8888` (Apache Server)  
 `http://localhost:8080` (Tomcat Server)   
 
-#### Dokumentation
+## Dokumentation
 
 You can find various documentation on the internet. Here is a short list:
 
