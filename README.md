@@ -11,6 +11,11 @@ PHP Version `PHP 7.0.27-0+deb9u1`
 Tomcat Server `Apache Tomcat/8.5.27`   
 Apache Server  `Apache/2.4.25`  
 
+#### Shared volumes
+
+- /var/www/html
+- /bridge-lib
+
 ## Build Image
 
     git clone https://github.com/clausnz/docker-php_java_bridge.git
@@ -46,7 +51,7 @@ Change into this directory and execute:
 
 Open url at   
 `http://localhost:8888` (Apache Server)  
-`http://localhost:8080` (Tomcat Server)   
+`http://localhost:8080/JavaBridge` (Tomcat Server)   
 
 ## Dokumentation
 
