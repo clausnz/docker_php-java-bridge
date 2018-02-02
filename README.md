@@ -18,17 +18,17 @@ Apache Server  `Apache/2.4.25`
 
 ## Build Image
 
-    git clone https://github.com/clausnz/docker-php_java_bridge.git
-    cd docker-php_java_bridge
+    git clone https://github.com/clausnz/docker_php-java-bridge.git
+    cd docker_php-java-bridge
     docker build -t <tag_name> .
 
 ## Run Container
 
 #### Example:
 
-Create directory `php_java_bridge` with the following directory structure:  
+Create directory `php-java-bridge` with the following directory structure:  
 
-    php_java_bridge/
+    php-java-bridge/
     |-- html
     |  -- file_1.php
     |  -- file_2.php
